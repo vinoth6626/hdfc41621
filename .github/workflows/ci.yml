@@ -41,6 +41,8 @@ jobs:
           cp -r ./devops/enterprise.json app/enterprisetoken
 
           echo `ls -l app/enterprisetoken`
+
+          echo `pwd`
         
 
   functionalTests:
